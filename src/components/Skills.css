@@ -1,0 +1,70 @@
+.skill {
+  position: relative;
+  padding: 60px 0;
+}
+
+.skill-bx {
+  text-align: center;
+}
+
+.skills-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 600px; /* Adjust as needed for spacing */
+  height: 600px; /* Adjust as needed for spacing */
+  margin: 0 auto; /* Center the circle */
+}
+
+.skill-group {
+  position: absolute;
+  width: 150px; /* Set a fixed width for each skill group */
+  text-align: center;
+  background-color: white; /* White background */
+  color: rgb(14, 13, 13); /* Black text color */
+  border: 1px solid #e7e3ec; /* Light gray border for outlining */
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px; /* Padding inside the container */
+  box-shadow: 0 2px 10px rgba(199, 8, 8, 0.1); /* Optional: add some shadow */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effect */
+.skill-group:hover {
+  background-color: #9a50c5; /* Light gray background on hover */
+  transform: scale(1.05); /* Slightly enlarge the container */
+  box-shadow: 0 4px 20px rgba(133, 74, 74, 0.2); /* Darker shadow on hover */
+}
+
+.skills-circle .skill-group h5 {
+  margin: 0;
+  padding: 5px;
+}
+
+.skill-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skill-item {
+  margin: 5px 0;
+}
+
+/* Position each skill group in a circular manner */
+.skill-group:nth-child(1) { transform: rotate(0deg) translate(250px) rotate(0deg); }
+.skill-group:nth-child(2) { transform: rotate(60deg) translate(250px) rotate(-60deg); }
+.skill-group:nth-child(3) { transform: rotate(120deg) translate(250px) rotate(-120deg); }
+.skill-group:nth-child(4) { transform: rotate(180deg) translate(250px) rotate(-180deg); }
+.skill-group:nth-child(5) { transform: rotate(240deg) translate(250px) rotate(-240deg); }
+.skill-group:nth-child(6) { transform: rotate(300deg) translate(250px) rotate(-300deg); }
+
+/* Optional: Style for the background image */
+.background-image-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}

@@ -1,0 +1,17 @@
+/* Reduce the height of the navbar */
+.navbar {
+  padding: 5px 15px; /* Adjust padding to reduce space */
+  min-height: 50px; /* Set a smaller minimum height */
+}
+
+/* Adjust the navbar links */
+.navbar-link {
+  padding: 5px 10px; /* Reduce padding between links */
+  font-size: 14px; /* Optionally adjust font size */
+}
+
+/* Reduce space around the button */
+.navbar-text .vvd {
+  padding: 5px 10px; /* Adjust padding */
+  font-size: 14px; /* Adjust button text size if needed */
+}

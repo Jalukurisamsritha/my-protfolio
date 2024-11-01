@@ -1,0 +1,54 @@
+.project {
+    background-color: #282c34;
+  padding: 60px 0;
+ 
+}
+.projects{
+    color: white;
+}
+
+
+
+.project p {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+}
+/* Assuming this is in your Projects.css or a similar file */
+.project h2 {
+    color: white; /* Change the heading color to white */
+    font-size: 2rem; /* Adjust size as needed */
+    text-align: center; /* Center align the heading */
+    margin-bottom: 20px; /* Add some space below the heading */
+  }
+  
+.nav-pills .nav-link {
+  border-radius: 50px;
+  color: #007bff;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.proj-imgbx {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.proj-imgbx img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.proj-txtx {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}

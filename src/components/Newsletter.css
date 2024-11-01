@@ -1,0 +1,34 @@
+.newsletter-bx {
+    padding: 2rem;
+    background-color: #f8f9fa; /* Light background for contrast */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .new-email-bx {
+    display: flex; /* Flexbox for input and button layout */
+    justify-content: space-between; /* Space between input and button */
+  }
+  
+  .new-email-bx input {
+    flex: 1; /* Allow input to grow */
+    padding: 10px; /* Padding for input */
+    border: 1px solid #ced4da; /* Border color */
+    border-radius: 4px; /* Rounded corners */
+    margin-right: 10px; /* Margin between input and button */
+  }
+  
+  .new-email-bx button {
+    padding: 10px 20px; /* Padding for button */
+    background-color: #007bff; /* Button background color */
+    color: #ffffff; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .new-email-bx button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+  }
+  

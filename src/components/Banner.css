@@ -1,0 +1,41 @@
+/* src/components/Banner.css */
+
+.banner {
+  background-color: #f8f9fa; /* Light background color */
+  padding: 50px 0; /* Top and bottom padding */
+}
+
+.tagline {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #dfe3e8; /* Dark color for tagline */
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #c4c8cd; /* Bootstrap primary color */
+}
+
+p {
+  font-size: 1rem;
+  color: #495057; /* Darker text color */
+  margin: 15px 0; /* Spacing between paragraphs */
+}
+
+button {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.txt-rotate {
+  color: #ce268b; /* Color for rotating text */
+}
